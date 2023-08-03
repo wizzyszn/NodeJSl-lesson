@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+
+<body>
+    <div>
+        <%- include('partials/navBar.ejs') %>
+        <h1>Thanks <%=data.who %> for contacting our <%= data.department %></h1>
+        <p> We are the best firm in the world.</p>
+        <p>We will reach via this mail <%=data.email%></p>
+    </div>
+</body>
+
+</html>
